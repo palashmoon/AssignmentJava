@@ -1,6 +1,7 @@
 package com.company;
 import java.util.Scanner;
 import java.util.Random;
+
 public class CheckCorrectNumber {
 
     public static void main(String[] args) {
@@ -14,18 +15,18 @@ public class CheckCorrectNumber {
 
         while(true){
             Scanner in = new Scanner(System.in);
-            System.out.println("enter a number you want:");
+            System.out.println("Enter a number you want:");
             int num1 = in.nextInt();
 
             if(num1 == n){
-                System.out.println("the no. matches the orignal no.");
+                System.out.println("Number guessed is same as the original number");
                 break;
             }
             else if(num1 > n){
-                System.out.println("the no. entered is greater");
+                System.out.println("Number guessed is more than original number");
             }
             else{
-                System.out.println("the no. entered is smaller");
+                System.out.println("Number guessed is less than original number");
             }
         }
     }

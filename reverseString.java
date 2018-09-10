@@ -6,7 +6,7 @@ public class reverseString {
 	// write your code here
         int i;
         Scanner input = new Scanner(System.in);
-        System.out.println("enter a string");
+        System.out.println("Input :");
         String str = input.nextLine();
 
         char[] chars = str.toCharArray();

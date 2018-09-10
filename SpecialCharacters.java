@@ -6,19 +6,19 @@ public class SpecialCharacters {
     public static void main(String[] args) {
 	// write your code here
         Scanner input = new Scanner(System.in);
-        System.out.println("enter a character:");
+        System.out.println("Enter a character:");
         char ch = input.next().charAt(0);
         if(ch >= 'A' && ch <= 'Z'){
-            System.out.println("Capital");
+            System.out.println("Capital letter");
         }
         else if(ch >= 'a' && ch<= 'z'){
-            System.out.println("small characters");
+            System.out.println("A Small case letter");
         }
         else if(ch >= '0' && ch <='9'){
-            System.out.println("digits");
+            System.out.println("Digits");
         }
         else{
-            System.out.println("special characters");
+            System.out.println("Special Symbol");
         }
     }
 }
